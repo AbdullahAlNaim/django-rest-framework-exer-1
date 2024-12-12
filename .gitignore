@@ -1,0 +1,8 @@
+# Python bytecode files
+__pycache__/
+
+# Local database file
+db.sqlite3
+
+# Sensitive settings file
+myapi/settings.py
