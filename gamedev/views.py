@@ -10,4 +10,7 @@ class GameDevView(generics.ListCreateAPIView):
     queryset = IndieGame.objects.all()
     serializer_class = IndieGameSerializer
     
+class SingleGameView(generics.RetrieveDestroyAPIView):
+    queryset = IndieGame.objects.all()
+    serializer_class = IndieGameSerializer
 
